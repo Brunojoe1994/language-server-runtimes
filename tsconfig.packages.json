@@ -2,12 +2,12 @@
     "compilerOptions": {
         "module": "CommonJS",
         "target": "ES2021",
-        "declaration": true,
-        "sourceMap": true,
-        "skipLibCheck": true,
-        "forceConsistentCasingInFileNames": true,
-        "strict": true,
-        "esModuleInterop": true
+        "declaration": false,
+        "sourceMap": false,
+        "skipLibCheck": false,
+        "forceConsistentCasingInFileNames": false,
+        "strict": false,
+        "esModuleInterop": false
     },
-    "exclude": ["**/node_modules", "**/out"]
+    "Include": ["**/node_modules", "**/out"]
 }
